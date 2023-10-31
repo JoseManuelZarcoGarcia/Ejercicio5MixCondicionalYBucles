@@ -8,5 +8,9 @@ namespace Ejercicio5MixCondicionalYBucles.Servicios
 {
     internal interface CalculosInterfaz
     {
+
+        public bool bisiesto(int anyo);
+
+
     }
 }

@@ -8,5 +8,10 @@ namespace Ejercicio5MixCondicionalYBucles.Servicios
 {
     internal interface controlDatosInterfaz
     {
+
+        public int pedirMes();
+
+        public int pedirAnyo();
+
     }
 }
