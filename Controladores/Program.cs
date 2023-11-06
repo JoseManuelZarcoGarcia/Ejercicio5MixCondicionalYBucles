@@ -40,7 +40,7 @@ namespace Ejercicio5MixCondicionalYBucles.Controladores
 
                 case 2:
 
-                    if (bisiesto = true)
+                    if (bisiesto == true)
                     {
                         Console.WriteLine("29");
                     }
