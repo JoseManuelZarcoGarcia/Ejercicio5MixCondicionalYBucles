@@ -2,3 +2,13 @@ C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\obj\Debug\ne
 C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\obj\Debug\net6.0\Ejercicio5MixCondicionalYBucles.AssemblyInfoInputs.cache
 C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\obj\Debug\net6.0\Ejercicio5MixCondicionalYBucles.AssemblyInfo.cs
 C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\obj\Debug\net6.0\Ejercicio5MixCondicionalYBucles.csproj.CoreCompileInputs.cache
+C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\bin\Debug\net6.0\Ejercicio5MixCondicionalYBucles.exe
+C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\bin\Debug\net6.0\Ejercicio5MixCondicionalYBucles.deps.json
+C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\bin\Debug\net6.0\Ejercicio5MixCondicionalYBucles.runtimeconfig.json
+C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\bin\Debug\net6.0\Ejercicio5MixCondicionalYBucles.dll
+C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\bin\Debug\net6.0\Ejercicio5MixCondicionalYBucles.pdb
+C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\obj\Debug\net6.0\Ejercicio5MixCondicionalYBucles.dll
+C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\obj\Debug\net6.0\refint\Ejercicio5MixCondicionalYBucles.dll
+C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\obj\Debug\net6.0\Ejercicio5MixCondicionalYBucles.pdb
+C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\obj\Debug\net6.0\Ejercicio5MixCondicionalYBucles.genruntimeconfig.cache
+C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\obj\Debug\net6.0\ref\Ejercicio5MixCondicionalYBucles.dll

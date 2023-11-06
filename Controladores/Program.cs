@@ -9,7 +9,7 @@ namespace Ejercicio5MixCondicionalYBucles.Controladores
         /// Metodo principal por el que empieza el programa
         /// </summary>
         /// <param name="args"></param>
-        static void main(string[] args)
+        static void Main(string[] args)
         {
 
             controlDatosInterfaz cdi = new controlDatosImplementacion();
