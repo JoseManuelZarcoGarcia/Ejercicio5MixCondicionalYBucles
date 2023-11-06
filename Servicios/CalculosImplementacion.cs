@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ejercicio5MixCondicionalYBucles.Servicios
 {
+    /// <summary>
+    /// Metodo que recibe un int y calcula si el año dado es biciesto o no
+    /// jzg - 061123
+    /// </summary>
     internal class CalculosImplementacion : CalculosInterfaz
     {
         public bool bisiesto(int anyo) 

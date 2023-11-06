@@ -1,4 +1,5 @@
 ﻿using Ejercicio5MixCondicionalYBucles.Servicios;
+using System;
 
 namespace Ejercicio5MixCondicionalYBucles.Controladores
 {
@@ -16,46 +17,57 @@ namespace Ejercicio5MixCondicionalYBucles.Controladores
             CalculosInterfaz ci = new CalculosImplementacion();
             int anyo, mes;
             bool bisiesto;
+            string repetir = "";
 
-            mes = cdi.pedirMes();
-            anyo = cdi.pedirAnyo();
-            bisiesto = ci.bisiesto(anyo);
-
-            switch (mes)
+            do
             {
-                case 0:
-                    Console.WriteLine("Mi compañero de al lado es Javi");
-                   
-                    break;
 
-                case 1: case 3:  case 5:  case 7: case 8:  case 10: case 12:
-                    Console.WriteLine("31");
-                    break;
+                mes = cdi.pedirMes();
+                anyo = cdi.pedirAnyo();
+                bisiesto = ci.bisiesto(anyo);
 
-                 case 4: case 6: case 9:case 11:
-                    Console.WriteLine("30");
-                    break;
+                switch (mes)
+                {
+                    case 0:
+                        Console.WriteLine("Mi compañero de al lado es Javi");
+
+                        break;
+
+                    case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+                        Console.WriteLine("31");
+                        break;
+
+                    case 4: case 6: case 9: case 11:
+                        Console.WriteLine("30");
+                        break;
+
+                    case 2:
+
+                        if (bisiesto == true)
+                        {
+                            Console.WriteLine("29");
+                        }
+
+                        else
+                        {
+                            Console.WriteLine("28");
+                        }
+                        break;
 
 
-
-                case 2:
-
-                    if (bisiesto == true)
-                    {
-                        Console.WriteLine("29");
-                    }
-
-                    else
-                    {
-                        Console.WriteLine("28");
-                    }
-                    break;
+                    default:
+                        Console.WriteLine("[info] - la opcion deseada no existe.");
+                        break;
+                }
 
 
-                default:
-                    Console.WriteLine("[info] - la opcion deseada no existe.");
-                    break;
-            }
+                Console.WriteLine("Si desea continuar escriba s, en caso contrario escriba otra cosa ");
+                repetir = Console.ReadLine();
+
+            } while (repetir=="s");
+
+
+            
 
         }
 
