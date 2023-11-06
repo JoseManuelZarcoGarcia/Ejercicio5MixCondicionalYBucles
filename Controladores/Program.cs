@@ -36,6 +36,8 @@ namespace Ejercicio5MixCondicionalYBucles.Controladores
                     Console.WriteLine("30");
                     break;
 
+
+
                 case 2:
 
                     if (bisiesto = true)
