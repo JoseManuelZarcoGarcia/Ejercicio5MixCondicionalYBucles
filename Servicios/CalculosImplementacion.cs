@@ -15,21 +15,21 @@ namespace Ejercicio5MixCondicionalYBucles.Servicios
         public bool bisiesto(int anyo) 
         {
 
-            bool bisiesto;
+            bool bisiesto = false;
 
-            if (anyo / 4==0)
+            if ((anyo % 4) == 0)
             {
                 bisiesto = false;
             }
             else if
-                (anyo / 100==0)
+                ((anyo % 100) == 0)
             {
                 bisiesto = false;
             }
-            else if (anyo / 400 == 0)
+            else if ((anyo % 400) == 0)
                 bisiesto = true;
             else
-                bisiesto= false;
+                bisiesto = false;
 
 
             return bisiesto;
