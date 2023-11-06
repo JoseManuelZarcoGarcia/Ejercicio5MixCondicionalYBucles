@@ -1,0 +1,4 @@
+C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\obj\Debug\net6.0\Ejercicio5MixCondicionalYBucles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\obj\Debug\net6.0\Ejercicio5MixCondicionalYBucles.AssemblyInfoInputs.cache
+C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\obj\Debug\net6.0\Ejercicio5MixCondicionalYBucles.AssemblyInfo.cs
+C:\Users\csi22-jzarcia\source\repos\Ejercicio5MixCondicionalYBucles\obj\Debug\net6.0\Ejercicio5MixCondicionalYBucles.csproj.CoreCompileInputs.cache

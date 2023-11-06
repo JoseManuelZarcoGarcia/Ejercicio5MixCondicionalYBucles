@@ -24,29 +24,29 @@ namespace Ejercicio5MixCondicionalYBucles.Controladores
             switch (mes)
             {
                 case 0:
-                    Console.WriteLine("Puto");
+                    Console.WriteLine("Mi compañero de al lado es Javi");
                    
                     break;
 
-                case 1: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10: case 11:
+                case 1: case 3:  case 5:  case 7: case 8:  case 10: case 12:
                     Console.WriteLine("31");
                     break;
 
-                case 12:
+                 case 4: case 6: case 9:case 11:
                     Console.WriteLine("30");
                     break;
 
                 case 2:
 
                     if (bisiesto = true)
-
+                    {
                         Console.WriteLine("29");
+                    }
 
-                    else 
+                    else
+                    {
                         Console.WriteLine("28");
-
-
-
+                    }
                     break;
 
 
