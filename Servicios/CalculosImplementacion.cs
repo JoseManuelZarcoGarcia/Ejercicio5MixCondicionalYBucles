@@ -16,7 +16,7 @@ namespace Ejercicio5MixCondicionalYBucles.Servicios
         {
 
             bool bisiesto = false;
-
+            /*
             if ((anyo % 4) == 0)
             {
                 bisiesto = false;
@@ -30,9 +30,27 @@ namespace Ejercicio5MixCondicionalYBucles.Servicios
                 bisiesto = true;
             else
                 bisiesto = false;
+            */
+
+            if ((anyo % 4) == 0)
+            {
+                bisiesto = false;
+
+                if ((anyo % 100) == 0)
+                {
+                    bisiesto = false;
+
+                    if ((anyo % 400) == 0)
+                        bisiesto = true;
+                    else
+                        bisiesto = false;
+                }
+            }
 
 
-            return bisiesto;
+
+
+                return bisiesto;
 
         }
 
