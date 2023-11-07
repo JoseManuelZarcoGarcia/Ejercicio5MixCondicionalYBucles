@@ -10,6 +10,7 @@ namespace Ejercicio5MixCondicionalYBucles.Servicios
     {
         /// <summary>
         /// Este metodo pedira el mes y lo devolver como int
+        ///  jzg - 071123
         /// </summary>
         /// <returns></returns>
         public int pedirMes()
@@ -19,6 +20,11 @@ namespace Ejercicio5MixCondicionalYBucles.Servicios
             return mes;
         }
 
+        /// <summary>
+        /// Este metodo pedira el año y lo devolver como int
+        ///  jzg - 071123
+        /// </summary>
+        /// <returns></returns>
         public int pedirAnyo()
         {
             Console.Write("Escriba un nuemro del año: ");
