@@ -3,7 +3,9 @@ using System;
 
 namespace Ejercicio5MixCondicionalYBucles.Controladores
 {
-
+    /// <summary>
+    /// Clase principal 
+    /// </summary>
     class Program
     {
         /// <summary>
@@ -34,23 +36,23 @@ namespace Ejercicio5MixCondicionalYBucles.Controladores
                         break;
 
                     case 1: case 3: case 5: case 7: case 8: case 10: case 12:
-                        Console.WriteLine("31");
+                        Console.WriteLine("\t31 dias");
                         break;
 
                     case 4: case 6: case 9: case 11:
-                        Console.WriteLine("30");
+                        Console.WriteLine("\t30 dias");
                         break;
 
                     case 2:
 
                         if (bisiesto == true)
                         {
-                            Console.WriteLine("29");
+                            Console.WriteLine("\t29 dias");
                         }
 
                         else
                         {
-                            Console.WriteLine("28");
+                            Console.WriteLine("\t28 dias");
                         }
                         break;
 

@@ -9,19 +9,26 @@ namespace Ejercicio5MixCondicionalYBucles.Servicios
     internal class controlDatosImplementacion : controlDatosInterfaz
     {
         /// <summary>
-        /// Este metodo pedira el mes y lo devolver como int
+        /// Este metodo pedira el mes y lo devuelve como int
         ///  jzg - 071123
         /// </summary>
         /// <returns></returns>
         public int pedirMes()
         {
-            Console.Write("Escriba un nuemro del mes: ");
-            int mes = Convert.ToInt32(Console.ReadLine());
+            int mes;
+            do
+            {
+                Console.Write("Escriba un nuemro del mes: ");
+                mes = Convert.ToInt32(Console.ReadLine());
+            }while (mes<1|mes>12);
+            
+
+
             return mes;
         }
 
         /// <summary>
-        /// Este metodo pedira el año y lo devolver como int
+        /// Este metodo pedira el año y lo devuelve como int
         ///  jzg - 071123
         /// </summary>
         /// <returns></returns>
