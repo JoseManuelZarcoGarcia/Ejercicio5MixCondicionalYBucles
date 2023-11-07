@@ -12,6 +12,12 @@ namespace Ejercicio5MixCondicionalYBucles.Servicios
     /// </summary>
     internal class CalculosImplementacion : CalculosInterfaz
     {
+        /// <summary>
+        /// Metodo que recibe el año y calcula si es bisiesto o no
+        ///  jzg - 071123
+        /// </summary>
+        /// <param name="anyo"></param>
+        /// <returns></returns>
         public bool bisiesto(int anyo) 
         {
 
